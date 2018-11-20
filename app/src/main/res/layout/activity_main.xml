@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#EBEBEB">
+
+    <EditText
+        android:id="@+id/input_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入手机号码查询"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="查询"
+        android:textColor="@android:color/white"
+        android:background="#2196f3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查询结果"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/result_province"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="省份："
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#EBEBEB"/>
+
+        <TextView
+            android:id="@+id/result_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="城市："
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#EBEBEB"/>
+
+        <TextView
+            android:id="@+id/result_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="运营商："
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
