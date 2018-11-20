@@ -1,4 +1,4 @@
 # Number-attribution-inquiry
 MVP architecture
 
-手机归属地查询
+手机号码归属地查询
